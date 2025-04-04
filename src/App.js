@@ -5,6 +5,7 @@ import Nevbar from './components/Nevbar';
 import MobileManue from './components/MobileManue';
 
 function App() {
+  // for loading screen
   const [isvisibleLoading, setVisibleLoading] = useState(true);
   const [manuOpen,setmanuOpen]=useState(false)
   return (

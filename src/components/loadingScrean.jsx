@@ -8,7 +8,6 @@ function LoadingScrean({ toglevisibleLoading }) {
         let index = 0;
         const interval = setInterval(() => {
             setText(fulltext.substring(0, index))
-            // console.log(index)
             index++;
             if (index > fulltext.length) {
                 clearInterval(interval);

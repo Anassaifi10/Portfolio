@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 
 function Nevbar({ manuOpen, setmanuOpen }) {
+    // for checking if the menu is open or not
     useEffect(() => {
         document.body.style.overflowY = manuOpen ? "hidden" : "";
     }, [manuOpen])

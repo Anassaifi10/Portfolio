@@ -1,6 +1,7 @@
 import React from 'react'
 
 function MobileManue({ manuOpen, setmanuOpen }) {
+    // for checking if the menu is open or not
     return (
         <div className={`fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.8)] z-40 flex flex-col justify-center items-center 
                     transition-all duration-500 ease-in-out
