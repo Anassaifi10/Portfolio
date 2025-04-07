@@ -11,7 +11,7 @@ function Nevbar({ manuOpen, setmanuOpen }) {
 
                 <div className='flex justify-between items-center h-16'>
 
-                    <a href="#home" className='font-mono font-bold text-white hover:scale-105 transition-all duration-500 ease-in-out' >
+                    <a href="#Home" className='font-mono font-bold text-white hover:scale-105 transition-all duration-500 ease-in-out' >
                         anas.<span className='text-blue-500'>saifi</span>
                     </a>
 
@@ -22,9 +22,10 @@ function Nevbar({ manuOpen, setmanuOpen }) {
                     </div>
 
                     <div className='hidden md:flex items-center space-x-5 font-mono' >
-                        <a href="#Home" className='hover:text-gray-200 hover:scale-105 transition-all duration-500 ease-in-out' >Home</a>
-                        <a href="#About" className='hover:text-gray-200 hover:scale-105 transition-all duration-500 ease-in-out'>About</a>
-                        <a href="#Contact" className='hover:text-gray-200 hover:scale-105 transition-all duration-500 ease-in-out'>Contect</a>
+                        <a href="#Home" className='text-gray-300 hover:text-white hover:scale-105 transition-all duration-500 ease-in-out' >Home</a>
+                        <a href="#About" className='text-gray-300 hover:text-white  hover:scale-105 transition-all duration-500 ease-in-out'>About</a>
+                        <a href="#Project" className='text-gray-300 hover:text-white  hover:scale-105 transition-all duration-500 ease-in-out'>Project</a>
+                        <a href="#Contact" className='text-gray-300 hover:text-white  hover:scale-105 transition-all duration-500 ease-in-out'>Contect</a>
                     </div>
                 </div>
 

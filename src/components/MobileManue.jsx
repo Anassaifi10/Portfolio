@@ -16,7 +16,7 @@ function MobileManue({ manuOpen, setmanuOpen }) {
                 &times;
             </button>
 
-            <a href="#home" onClick={() => setmanuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 ease-in-out 
+            <a href="#Home" onClick={() => setmanuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 ease-in-out 
                 ${manuOpen ? "opacity-100 translate-y-0 scale-100" :
                             "opacity-0 translate-y-5 scale-95"}`}>Home</a>
             <a href="#About" onClick={() => setmanuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 ease-in-out 
