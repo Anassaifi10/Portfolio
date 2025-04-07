@@ -6,6 +6,7 @@ import MobileManue from './components/MobileManue';
 import Home from './components/sections/Home';
 import About from './components/sections/About';
 import Project from './components/sections/Project';
+import Contact from './components/sections/Contact';
 
 function App() {
   // for loading screen
@@ -21,6 +22,7 @@ function App() {
             <Home />
             <About />
             <Project />
+            <Contact/>
           </div>
         </>
       }

@@ -4,9 +4,9 @@ import RevealOnScroal from '../RevealOnScroal'
 function Home() {
   return (
     <RevealOnScroal>
-    <section id='Home' className='min-h-screen flex items-center justify-center relative '>
+    <section id='Home' className='min-h-screen flex items-center justify-center relative mt-10'>
 
-      <div className=' flex flex-col justify-center  sm:gap-y-7 gap-y-10 text-center z-10 px-4'>
+      <div className='flex flex-col justify-center  sm:gap-y-7 gap-y-10 text-center z-10 px-4'>
         <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold gradient-text leading-tight 
       font-mono bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-blue-500 to-cyan-500'>Hi I'm Anas Saifi </h1>
 

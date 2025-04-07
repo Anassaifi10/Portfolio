@@ -13,7 +13,7 @@ function About() {
 
           <h2 className='text-3xl font-bold mb-8 font-mono bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>About Me</h2>
 
-          <div className='rounded-xl p-8 border-white/10 border hover:-translate-y-0.5 transition-all duration-500
+          <div className='rounded-xl space-y-14 p-8 border-white/10 border hover:-translate-y-0.5 transition-all duration-500
         hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] ease-in-out
         '>
             <p className='text-gray-300 text-sm mb-6'>
@@ -54,7 +54,7 @@ function About() {
 
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-6 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-y-20 gap-x-6 '>
               <div className='p-4 rounded-xl border-white/10 border hover:translate-y-1 transition-all duration-500 ease-in-out'>
                 <h3 className='text-xl font-bold'>📚 Education</h3>
                 <ul className='text-left text-xs list-disc list-inside text-gray-400  flex flex-col gap-3'>
