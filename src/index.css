@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    margin:0px;
+    padding:0px;
+    font-family: "Space Grotesk",sans-serif;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.reveal
+{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.reveal.visible
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
