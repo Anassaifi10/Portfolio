@@ -25,7 +25,7 @@ function Nevbar({ manuOpen, setmanuOpen }) {
                         <a href="#Home" className='text-gray-300 hover:text-white hover:scale-105 transition-all duration-500 ease-in-out' >Home</a>
                         <a href="#About" className='text-gray-300 hover:text-white  hover:scale-105 transition-all duration-500 ease-in-out'>About</a>
                         <a href="#Project" className='text-gray-300 hover:text-white  hover:scale-105 transition-all duration-500 ease-in-out'>Project</a>
-                        <a href="#Contact" className='text-gray-300 hover:text-white  hover:scale-105 transition-all duration-500 ease-in-out'>Contect</a>
+                        <a href="#Contact" className='text-gray-300 hover:text-white  hover:scale-105 transition-all duration-500 ease-in-out'>Contact</a>
                     </div>
                 </div>
 

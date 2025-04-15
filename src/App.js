@@ -7,6 +7,7 @@ import Home from './components/sections/Home';
 import About from './components/sections/About';
 import Project from './components/sections/Project';
 import Contact from './components/sections/Contact';
+import Footer from './components/sections/Footer';
 
 function App() {
   // for loading screen
@@ -23,6 +24,7 @@ function App() {
             <About />
             <Project />
             <Contact/>
+            <Footer/>
           </div>
         </>
       }

@@ -18,13 +18,16 @@ function MobileManue({ manuOpen, setmanuOpen }) {
 
             <a href="#Home" onClick={() => setmanuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 ease-in-out 
                 ${manuOpen ? "opacity-100 translate-y-0 scale-100" :
-                            "opacity-0 translate-y-5 scale-95"}`}>Home</a>
+                    "opacity-0 translate-y-5 scale-95"}`}>Home</a>
             <a href="#About" onClick={() => setmanuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 ease-in-out 
                 ${manuOpen ? "opacity-100 translate-y-0 scale-100" :
-                            "opacity-0 translate-y-5 scale-95"}`}>About</a>
+                    "opacity-0 translate-y-5 scale-95"}`}>About</a>
+            <a href="#Project" onClick={() => setmanuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 ease-in-out 
+                ${manuOpen ? "opacity-100 translate-y-0 scale-100" :
+                    "opacity-0 translate-y-5 scale-95"}`}>Project</a>
             <a href="#Contact" onClick={() => setmanuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-all duration-500 ease-in-out 
                 ${manuOpen ? "opacity-100 translate-y-0 scale-100" :
-                            "opacity-0 translate-y-5 scale-95"}`}>Contact</a>
+                    "opacity-0 translate-y-5 scale-95"}`}>Contact</a>
 
         </div>
     )
