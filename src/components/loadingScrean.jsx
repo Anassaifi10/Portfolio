@@ -22,7 +22,7 @@ function LoadingScrean({ toglevisibleLoading }) {
 
     return (
         <div className='flex w-[100vw] h-[100vh] items-center justify-center'>
-            <div className="flex flex-col items-center w-[65%] lg:w-[20%] gap-y-5">
+            <div className="flex flex-col items-center w-[80%] md:w-[65] lg:w-[20%] gap-y-5">
 
                 <div className="mt-4 text-2xl font-mono bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
                     {text}

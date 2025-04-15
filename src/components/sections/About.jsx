@@ -16,7 +16,7 @@ function About() {
           <div className='rounded-xl space-y-14 p-8 border-white/10 border hover:-translate-y-0.5 transition-all duration-500
         hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] ease-in-out
         '>
-            <p className='text-gray-300 text-sm mb-6'>
+            <p className='text-gray-300  font-mono text-sm mb-6'>
               Passionate about web development, with expertise in building scalable applications and creating innovative solutions.
             </p>
 
