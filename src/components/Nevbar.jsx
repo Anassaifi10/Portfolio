@@ -18,19 +18,21 @@ function Nevbar({ manuOpen, setmanuOpen }) {
                         anas.<span className='text-blue-500'>saifi</span>
                     </a>
 
-                    <div className='w-7 h-5 relative cursor-pointer z-40 md:hidden'
-                        onClick={() => setmanuOpen(!manuOpen)}>
-                        &#9776;
-                    </div>
+                    {
+                        !manuOpen ? <div className='w-7 h-5 relative cursor-pointer z-40 md:hidden'
+                            onClick={() => setmanuOpen(!manuOpen)}>
+                            &#9776;
+                        </div> : <></>
+                    }
+
 
                     <div className='hidden md:flex items-center space-x-5 font-mono' >
                         {["Home", "About", "Project", "Contact"].map((item) => (
                             <a
                                 key={item}
                                 href={`#${item}`}
-                                className={`relative text-gray-300 hover:text-white transition-all duration-500 ease-in-out after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 hover:after:w-full after:transition-all after:duration-500 ${
-                                    position === item ? 'after:w-full text-white' : ''
-                                }`}
+                                className={`relative text-gray-300 hover:text-white transition-all duration-500 ease-in-out after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 hover:after:w-full after:transition-all after:duration-500 ${position === item ? 'after:w-full text-white' : ''
+                                    }`}
                             >
                                 {item}
                             </a>
