@@ -9,7 +9,7 @@ function Contact() {
     message: "",
   });
 
-  function handlesubmit(e){
+  function handlesubmit(e) {
     e.preventDefault()
     console.log(formData)
     setFormData({
@@ -19,11 +19,11 @@ function Contact() {
     })
   }
   return (
-    <section
-      id="Contact"
-      className="min-h-screen flex items-center justify-center "
-    >
-      <RevealOnScroal>
+    <RevealOnScroal>
+      <section
+        id="Contact"
+        className="min-h-screen flex items-center justify-center "
+      >
         <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
@@ -40,7 +40,7 @@ function Contact() {
              focus:ring-2  focus:ring-blue-500 focus:ring-opacity-50 transition-all duration-300 ease-in-out"
                 placeholder="Name..."
                 value={formData.name}
-                onChange={(e)=>setFormData({...formData,name:e.target.value})}
+                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               />
             </div>
 
@@ -54,7 +54,7 @@ function Contact() {
               focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-all duration-300 ease-in-out"
                 placeholder="example@gmail.com"
                 value={formData.email}
-                onChange={(e)=>setFormData({...formData,email:e.target.value})}
+                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               />
             </div>
 
@@ -68,7 +68,7 @@ function Contact() {
               focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-all duration-300 ease-in-out"
                 placeholder="Your Message..."
                 value={formData.message}
-                onChange={(e)=>setFormData({...formData,message:e.target.value})}
+                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               />
             </div>
 
@@ -81,8 +81,8 @@ function Contact() {
 
           </form>
         </div>
-      </RevealOnScroal>
-    </section>
+      </section>
+    </RevealOnScroal>
   )
 }
 
