@@ -10,6 +10,7 @@ function RevealOnScroal({children}) {
         const observer = new IntersectionObserver(([entries]) => {
             if(entries.isIntersecting){
                 ref.current.classList.add("visible")
+                console.log(entries.target.childNodes[0].id)
             }
         },{threshold:0.2,rootMargin:"0px 0px -50% 0px"})
         if(ref.current) {
