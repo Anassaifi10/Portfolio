@@ -19,7 +19,6 @@ function RevealOnScroal({children}) {
         if(ref.current) {
             observer.observe(ref.current)
         }
-        console.log("yes")
         return () => observer.disconnect()
     })
 
