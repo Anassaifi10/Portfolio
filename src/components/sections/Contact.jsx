@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 import RevealOnScroal from '../RevealOnScroal'
-
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -9,9 +10,38 @@ function Contact() {
     message: "",
   });
 
-  function handlesubmit(e) {
+  async function handlesubmit(e) {
     e.preventDefault()
-    console.log(formData)
+    
+    const {REACT_APP_EMAILJS_PUBLIC_KEY,REACT_APP_EMAILJS_TEMPLATE_ID,REACT_APP_EMAILJS_SERVICE_ID}=process.env;
+    console.log(REACT_APP_EMAILJS_PUBLIC_KEY,REACT_APP_EMAILJS_TEMPLATE_ID,REACT_APP_EMAILJS_SERVICE_ID)
+    if (!REACT_APP_EMAILJS_PUBLIC_KEY || !REACT_APP_EMAILJS_TEMPLATE_ID || !REACT_APP_EMAILJS_SERVICE_ID) {
+      alert("EmailJS configuration is missing. Please check your environment variables.");
+      return;
+    }
+    emailjs
+      .send(
+        REACT_APP_EMAILJS_SERVICE_ID,
+          REACT_APP_EMAILJS_TEMPLATE_ID,
+        formData,
+        REACT_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then((result) => {
+        console.log("Email sent successfully:", result);
+        toast.success("Email sent successfully!",{
+          position: "top-right",
+            autoClose: 3000,
+        });
+      })
+      .catch((error) => {
+        alert("An error occurred. Please try again.");
+        console.log("EmailJS error:", error);
+        toast.error("An error occurred. Please try again.",{
+          position: "top-right",
+            autoClose: 3000,
+        });
+      });
+    
     setFormData({
       name: "",
       email: "",

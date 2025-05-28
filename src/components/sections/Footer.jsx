@@ -22,16 +22,16 @@ function Footer() {
             </div>
           </div>
           <div className="flex gap-4 justify-center sm:justify-start mt-4 sm:mt-0">
-            <a href="" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            <a href="https://www.instagram.com/anas_saifi10" target="_blank" rel="noopener noreferrer" className="hover:text-white">
               <Instagram className="w-5 h-5" />
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            <a href="https://www.linkedin.com/in/anas-saifi-71797322a/" target="_blank" rel="noopener noreferrer" className="hover:text-white">
               <Linkedin className="w-5 h-5" />
             </a>
             <a href="https://github.com/Anassaifi10" target="_blank" rel="noopener noreferrer" className="hover:text-white">
               <Github className="w-5 h-5" />
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            <a href="example.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
               <Facebook className="w-5 h-5" />
             </a>
           </div>
