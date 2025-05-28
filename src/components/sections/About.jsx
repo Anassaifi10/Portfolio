@@ -13,8 +13,8 @@ function About() {
 
           <h2 className='text-3xl font-bold mb-8 font-mono bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-500'>About Me</h2>
 
-          <div className='rounded-xl space-y-14 p-8 border-white/10 border hover:-translate-y-0.5 transition-all duration-500
-        hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] ease-in-out
+          <div className='rounded-xl space-y-14 p-8  border hover:-translate-y-0.5 transition-all duration-500
+        border-blue-500 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] ease-in-out
         '>
             <p className='text-gray-300  font-mono text-sm mb-6'>
               Passionate about web development, with expertise in building scalable applications and creating innovative solutions.
