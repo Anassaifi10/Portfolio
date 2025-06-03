@@ -1,4 +1,3 @@
-import React from 'react'
 import RevealOnScroal from '../RevealOnScroal';
 
 function About() {
@@ -62,7 +61,7 @@ function About() {
                     <strong className='text-white'> B.Tech in computer Science</strong> - Dev Bhoomi Uttrakhand University (2020-2024)
                   </li>
                   <li>
-                    <strong className='text-white'>12th</strong> - CBSE (2020)
+                    <strong className='text-white'>10th</strong> - CBSE (2018)
                   </li>
                   <li>
                     <strong className='text-white'>12th</strong> - CBSE (2020)
